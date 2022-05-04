@@ -1,5 +1,6 @@
 @charset "UTF-8";
 body {
+  background-color: black;
   margin: 0 15%;
   width: 960px;
 }
@@ -21,6 +22,7 @@ body .top-img {
 }
 
 body #wrap {
+  background-color: #fff;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -28,8 +30,14 @@ body #wrap {
 
 body #wrap #left-content {
   background-color: #C6C6C6;
+  display: block;
   width: 20%;
   height: 100%;
+}
+
+body #wrap #left-content .box {
+  display: inline-block;
+  padding: 100% 0;
 }
 
 body #wrap #right-content {
@@ -198,6 +206,47 @@ body #wrap #right-content #itroduction-area2 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+body #wrap #right-content #wish-list {
+  background-color: #7B7B7B;
+  margin: 80px 0 0 0;
+}
+
+body #wrap #right-content #wish-list .wish-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body #wrap #right-content #itroduction-area3 {
+  margin: 50px 5% 0 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body footer {
+  background-color: #434343;
+  color: #fff;
+  width: 100%;
+}
+
+body footer .img-box {
+  text-align: center;
+  padding-top: 30px;
+}
+
+body footer .text-box {
+  font-size: 20px;
+  padding: 200px 0 50px 0;
+}
+
+body footer .text-box p {
+  margin: 15px 25px;
 }
 
 @media screen and (max-width: 480px) {

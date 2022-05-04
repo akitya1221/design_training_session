@@ -1,4 +1,5 @@
 body {
+    background-color: black;
     margin: 0 15%;
     width: 960px;
     header {
@@ -14,11 +15,17 @@ body {
         width: 100%;
     }
     #wrap {
+        background-color: #fff;
         display: flex;
         #left-content {
             background-color: #C6C6C6;
+            display: block;
             width: 20%;
             height: 100%;
+            .box {
+                display: inline-block;
+                padding: 100% 0;
+            }
         }
         #right-content {
             width: 80%;
@@ -134,6 +141,34 @@ body {
             #itroduction-area2 {
                 margin: 50px 5% 0 5%;
                 display: flex;
+            }
+            #wish-list {
+                background-color:#7B7B7B;
+                margin: 80px 0 0 0;
+                .wish-box {
+                    display: flex;
+                    justify-content: center;
+                }
+            }
+            #itroduction-area3 {
+                margin: 50px 5% 0 5%;
+                display: flex;
+            }
+        }
+    }
+    footer {
+        background-color: #434343;
+        color: #fff;
+        width: 100%;
+        .img-box{
+            text-align: center;
+            padding-top: 30px;
+        }
+        .text-box {
+            font-size: 20px;
+            padding: 200px 0 50px 0;
+            p {
+                margin: 15px 25px;
             }
         }
     }
