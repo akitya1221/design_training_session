@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="./stylesheet/reset.css">
     <link rel="stylesheet" href="./stylesheet/index.css">
     <title>Document</title>
@@ -13,7 +13,14 @@
         <img class="header-img" src="./images/sappari.png">
         <div id="menu">
             <input type="checkbox" id="menu-btn-check">
-            <label for="menu-btn-check" class="menu-btn"><span></span></label>
+            <label for="menu-btn-check" class="menu-btn">
+                <div for="menu-btn-check" class="open-img">
+                    <img src="./images/sp_menu_open.png">
+                </div>
+                <div for="menu-btn-check" class="close-img">
+                    <img src="./images/sp_menu_close.png">
+                </div>
+            </label>
             <div class="menu-list">
                 <ul>
                     <li><a href="#">top</a></li>
@@ -30,18 +37,24 @@
             <div class="box">
                 <div class="item1">
                     <img class="left-img" src="./images/pc_img_11.png">
-                    <p>飼い主募集中</p>
-                    <p>くま牧場</p>
+                    <div class="text-area">
+                        <p class="item-title">飼い主募集中</p>
+                        <p class="item-text">くま牧場</p>
+                    </div>
                 </div>
                 <div class="item2">
-                    <img class="left-img" src="./images/pc_img_11.png">
-                    <p>飼い主募集中</p>
-                    <p>くま牧場</p>
+                    <img class="left-img" src="./images/pc_img_10.png">
+                    <div class="text-area">
+                        <p class="item-title">映える海鮮丼ならココ</p>
+                        <p class="item-text">さかないっぱい市場</p>
+                    </div>
                 </div>
                 <div class="item3">
-                    <img class="left-img" src="./images/pc_img_11.png">
-                    <p>飼い主募集中</p>
-                    <p>くま牧場</p>
+                    <img class="left-img" src="./images/pc_img_08.png">
+                    <div class="text-area">
+                        <p class="item-title">売る気のないメルカソ特集</p>
+                        <p class="item-text">メルカソ</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -75,7 +88,7 @@
             <div id="itroduction-area1">
                 <img class="area-img" src="./images/pc_img_05.png">
                 <div class="itroduction-text">
-                    <h3>赤平よいとこ一度はおいで</h3>
+                    <h3 class="label">赤平よいとこ一度はおいで</h3>
                     <p>
                         北海道赤平市は北海道出身者が出演する某人気テレビ番組の影響でここ数年で知名度が急上昇、
                         ドラマのロケ地になるなど、注目を集めています。
@@ -104,8 +117,9 @@
                 <button>メルカソでお買い物する</button>
             </div>
             <div id="itroduction-area2">
+                <img class="sp-area-img" src="./images/pc_img_09.png">
                 <div class="itroduction-text">
-                    <h3>東京の空も悪くない</h3>
+                    <h3 class="label">東京の空も悪くない</h3>
                     <p>
                         東京は空が狭い<br>
                         高いビルが隙間なくたくさん伸びていって、<br>
@@ -122,19 +136,23 @@
                     <div class="item1">
                         <img src="./images/pc_img_08.png">
                         <p>未使用ZIPPO</p>
-                        <button>欲しい</button>
+                        <div class="button-area">
+                            <button>欲しい</button>
+                        </div>
                     </div>
                     <div class="item2">
                         <img src="./images/pc_img_08.png">
                         <p>モノリスオルゴール</p>
-                        <button>欲しい</button>
+                        <div class="button-area">
+                            <button>欲しい</button>
+                        </div>
                     </div>
                 </div>
             </div>
             <div id="itroduction-area3">
                 <img class="food-img" src="./images/pc_img_10.png">
                 <div class="itroduction-text">
-                    <h3>日本に生まれて良かったでしょ</h3>
+                    <h3 class="label">日本に生まれて良かったでしょ</h3>
                     <p>
                         海外旅行に行くたび思うこと行く度思うこと。「日本おご飯が食べたい。」<br>
                         食べ慣れてるものだからということもあるだろうけれど、<br>
