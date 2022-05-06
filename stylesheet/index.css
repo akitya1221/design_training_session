@@ -756,8 +756,7 @@ body footer .text-box p {
   }
   body #wrap #right-content #gallery {
     margin: 50px 5% 0 5%;
-    display: -ms-grid;
-    display: grid;
+    display: none;
     -ms-grid-rows: auto auto;
         grid-template-rows: auto auto;
     -ms-grid-columns: auto auto auto;
@@ -802,6 +801,7 @@ body footer .text-box p {
   body #wrap #right-content .sp-gallery {
     display: block;
     overflow: hidden;
+    padding: 50px 0;
   }
   body #wrap #right-content .sp-gallery .slider {
     width: 100%;

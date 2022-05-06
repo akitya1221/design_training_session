@@ -645,7 +645,7 @@ body {
     
                 #gallery {
                     margin: 50px 5% 0 5%;
-                    display: grid;
+                    display: none;
                     grid-template-rows: auto auto;
                     grid-template-columns: auto auto auto;
     
@@ -677,6 +677,7 @@ body {
                 .sp-gallery {
                     display: block;
                     overflow: hidden;
+                    padding: 50px 0;
                     // slick設定
                     .slider {
                         width: 100%;
