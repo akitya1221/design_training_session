@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="./stylesheet/reset.css">
     <link rel="stylesheet" href="./stylesheet/index.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="./js/slick.js"></script>
     <title>Document</title>
 </head>
 <body>
@@ -65,6 +67,14 @@
                 <img class="g-img3" src="./images/pc_img_03.png">
                 <img class="g-img4" src="./images/pc_img_04.png">
             </div>
+            <div class="sp-gallery">
+                <ul class="slider">
+                    <li><img alt="画像1" src="./images/sp_img_01.png"></li>
+                    <li><img alt="画像2" src="./images/sp_img_02.png"></li>
+                    <li><img alt="画像3" src="./images/sp_img_03.png"></li>
+                    <li><img alt="画像4" src="./images/sp_img_04.png"></li>
+                </ul>
+            </div>
             <div id="youtube">
                 <iframe width="100%" height="315" src="https://www.youtube.com/embed/3xqvrazVkuY?controls=0" title="YouTube video player"
                     frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -104,17 +114,20 @@
                     <div class="item1">
                         <img src="./images/buildingjpeg.jpeg">
                         <p>マンション買うならいくら？</p>
+                        <button class="sp-btn">欲しい</button>
                     </div>
                     <div class="item2">
                         <img src="./images/IMG_0643.jpeg">
                         <p>あの時買えばよかったアレ</p>
+                        <button class="sp-btn">欲しい</button>
                     </div>
                     <div class="item3">
                         <img src="./images/IMG_1319.jpeg">
                         <p>売る気のないメルカソ特集</p>
+                        <button class="sp-btn">欲しい</button>
                     </div>
                 </div>
-                <button>メルカソでお買い物する</button>
+                <button class="pc-btn">メルカソでお買い物する</button>
             </div>
             <div id="itroduction-area2">
                 <img class="sp-area-img" src="./images/pc_img_09.png">
@@ -174,5 +187,6 @@
             <p>〒000-0000 TOKYO SHINJYUKU 0-0-0</p>
         </div>
     </footer>
+<script src="./js/index.js"></script>
 </body>
 </html>
